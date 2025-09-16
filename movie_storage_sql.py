@@ -77,7 +77,7 @@ def add_movie(user_id, title):
 
     data = response.json()
     if data.get("Response") == "False":
-        print(f"❌ Movie not found: {data.get('Error', 'Unknown error')}")
+        print(f" Movie not found: {data.get('Error', 'Unknown error')}")
         return
 
     title = data["Title"]

@@ -4,7 +4,7 @@ import sys
 import movie_storage_sql as movie_storage
 
 MENU = """
-********** My Movies Database **********
+*********** My Movies Database ***********
 
 Menu:
 0. Exit program
