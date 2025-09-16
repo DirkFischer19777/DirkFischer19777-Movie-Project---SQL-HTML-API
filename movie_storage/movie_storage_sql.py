@@ -7,6 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
+# create folder if not existing
+os.makedirs("data", exist_ok=True)
+
 # Database
 DB_URL = "sqlite:///data/movies.db"
 engine = create_engine(DB_URL, echo=False)
