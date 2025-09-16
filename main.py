@@ -1,7 +1,7 @@
 import statistics
 import random
 import sys
-import movie_storage_sql as movie_storage
+from movie_storage import movie_storage_sql as movie_storage
 
 MENU = """
 *********** My Movies Database ***********

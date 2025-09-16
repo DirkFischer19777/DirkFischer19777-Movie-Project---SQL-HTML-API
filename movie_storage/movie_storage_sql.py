@@ -8,7 +8,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 # Database
-DB_URL = "sqlite:///movies.db"
+DB_URL = "sqlite:///data/movies.db"
 engine = create_engine(DB_URL, echo=False)
 
 # Setup database
